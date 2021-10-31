@@ -1,0 +1,99 @@
+@import url("//cdn.web-fonts.ge/fonts/alk-life/css/alk-life.min.css");
+
+body {
+  background-image:url("pexels-valera-evane-9879200.jpg");
+  background-size: cover;
+  position: fixed;
+}
+button{
+  width: 100px;
+  height: 100px;
+  font-size: 20px;
+  margin-top: 250px;
+  margin-left: 140px;
+  border-radius: 50px;
+  background-color: #87CEEB;
+  color: black;
+
+}
+input[type=text]{
+  width: 90%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  padding: 8px;
+  font-size: 15px;
+  position: relative;
+  top: 250px;
+  left: 5px;
+  border-radius: 50px;
+  margin: 5px;
+  border: 3px solid white;
+}
+h1{
+  text-align: center;
+  position: relative;
+  top: 50px;
+  letter-spacing: 15px;
+  font-family: "ALK Life", sans-serif;
+}
+span{
+  position: relative;
+  left: 60px;
+}
+h2{
+  margin-top: 80px;
+  position: relative;
+  color: white;
+  left: 40px;
+  position: absolute;
+  font-family: "ALK Life", sans-serif;
+  color: black;
+}
+
+#p1{
+position: relative;
+text-align: center;
+top: -250px;
+text-decoration: underline;
+font-size: 30px;
+left: -10px;
+}
+
+.box{
+  width: 425px;
+  height: 60px;
+  background-color:#838383;
+  color: white;
+  position: relative;
+  top: 65px;
+  top: -10px;
+  top: 55px;
+  left: -10px;
+  margin-top: -5px;
+}
+.copy{
+  text-align: center;
+  letter-spacing: 5px;
+  position: relative;
+  top: 5px;
+}
+.oncol{
+  animation-name: anime;
+  animation-duration: 80s;
+  position:relative;
+  left: -3px;
+  letter-spacing:none;
+  text-align: center;
+  margin-top: -30px;
+}
+@keyframes anime{
+  0%{color:#01AC97;}
+  10%{color: #3F0CC6;}
+  20%{color: #8A9621;}
+  30%{color:#DD4F4F;}
+  40%{color: #7E102E;}
+  100%{color: black,white,green;}
+}
+ 
